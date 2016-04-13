@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slant.Configuration", "src\Slant.Configuration\Slant.Configuration.csproj", "{4F33B964-A210-4BC2-964D-798055F8271F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E14BDEEB-7D57-42B0-B329-877B83A29D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slant.Configuration.Tests", "test\Slant.Configuration.Tests\Slant.Configuration.Tests.csproj", "{EB578CB2-E074-483F-8A81-2174E9B6D431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F33B964-A210-4BC2-964D-798055F8271F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F33B964-A210-4BC2-964D-798055F8271F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F33B964-A210-4BC2-964D-798055F8271F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F33B964-A210-4BC2-964D-798055F8271F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB578CB2-E074-483F-8A81-2174E9B6D431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB578CB2-E074-483F-8A81-2174E9B6D431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB578CB2-E074-483F-8A81-2174E9B6D431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB578CB2-E074-483F-8A81-2174E9B6D431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB578CB2-E074-483F-8A81-2174E9B6D431} = {E14BDEEB-7D57-42B0-B329-877B83A29D2C}
+	EndGlobalSection
+EndGlobal
