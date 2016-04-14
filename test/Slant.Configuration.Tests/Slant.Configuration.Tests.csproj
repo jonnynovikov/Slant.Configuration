@@ -7,7 +7,7 @@
     <ProjectGuid>{EB578CB2-E074-483F-8A81-2174E9B6D431}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Slant.Configuration.Tests</RootNamespace>
+    <RootNamespace>Slant.Extensions.Configuration.Tests</RootNamespace>
     <AssemblyName>Slant.Configuration.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

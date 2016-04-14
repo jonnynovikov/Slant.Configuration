@@ -4,7 +4,7 @@
 using System;
 using NUnit.Framework;
 
-namespace Microsoft.Extensions.Configuration.Test
+namespace Slant.Extensions.Configuration.Tests
 {
     [TestFixture]
     public class ConfigurationPathComparerTest

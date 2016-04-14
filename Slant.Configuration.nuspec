@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+<metadata>
+        <id>Slant.Configuration</id>
+        <version>1.0.0</version>
+        <title>Slant.Configuration</title>
+        <authors>Slant Development Team</authors>
+        <owners>Jonny Novikov</owners>
+        <licenseUrl>https://raw.githubusercontent.com/slantdotnet/Slant.Configuration/master/license.txt</licenseUrl>
+        <projectUrl>https://github.com/slantdotnet/Slant.Configuration</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/slantdotnet/Slant/master/src/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Toolset for accessing Key/Value based configuration settings in an application.</description>
+        <summary>Toolset for accessing Key/Value based configuration settings in an application.</summary>
+        <releaseNotes>See github page for details</releaseNotes>
+        <copyright>Copyright (c) Slant Development Team</copyright>
+        <language>en-US</language>
+        <tags>Fluent configuration json app.config web</tags>
+		<dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Newtonsoft.Json" version="8.0.3" />
+            </group>
+        </dependencies>
+    </metadata>
+  <files>
+    <file src="license.txt" />
+    <file src="src\Slant.Configuration\bin\Release\Slant.Configuration.dll" target="lib\Slant.Configuration.dll" />
+    <file src="src\Slant.Configuration\bin\Release\Slant.Configuration.pdb" target="lib\Slant.Configuration.pdb" />
+    <file src="src\Slant.Configuration\bin\Release\Slant.Configuration.XML" target="lib\Slant.Configuration.XML" />
+  </files>
+</package>

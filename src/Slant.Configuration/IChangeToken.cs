@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Microsoft.Extensions.Primitives
+namespace Slant.Extensions
 {
     /// <summary>
     /// Propagates notifications that a change has occured.

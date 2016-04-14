@@ -3,7 +3,7 @@
 
 using System.IO;
 
-namespace Microsoft.Extensions.Configuration.Test
+namespace Slant.Extensions.Configuration.Tests
 {
     public static class TestStreamHelpers
     {

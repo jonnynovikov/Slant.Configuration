@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.Configuration.Memory;
 using NUnit.Framework;
 using FluentAssertions;
+using Slant.Extensions.Configuration.Memory;
 
-namespace Microsoft.Extensions.Configuration.Test
+namespace Slant.Extensions.Configuration.Tests
 {
     [TestFixture]
     public class ConfigurationTest

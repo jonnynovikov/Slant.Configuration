@@ -6,7 +6,7 @@ using System.IO;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Microsoft.Extensions.Configuration.Json
+namespace Slant.Extensions.Configuration.Json
 {
     public class JsonConfigurationExtensionsTest
     {

@@ -3,11 +3,11 @@
 
 using System;
 using System.IO;
-using Microsoft.Extensions.Configuration.Json;
-using Microsoft.Extensions.Configuration.Test;
 using NUnit.Framework;
+using Slant.Extensions.Configuration.Json;
+using Slant.Extensions.Configuration.Tests;
 
-namespace Microsoft.Extensions.Configuration
+namespace Slant.Extensions.Configuration
 {
     [TestFixture]
     public class JsonConfigurationTest

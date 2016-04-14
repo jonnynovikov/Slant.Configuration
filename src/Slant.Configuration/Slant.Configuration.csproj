@@ -7,7 +7,7 @@
     <ProjectGuid>{4F33B964-A210-4BC2-964D-798055F8271F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Slant.Configuration</RootNamespace>
+    <RootNamespace>Slant.Extensions</RootNamespace>
     <AssemblyName>Slant.Configuration</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -28,6 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Slant.Configuration.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -51,39 +52,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangeToken.cs" />
-    <Compile Include="CommandLine\CommandLineConfigurationExtensions.cs" />
-    <Compile Include="CommandLine\CommandLineConfigurationProvider.cs" />
-    <Compile Include="CommandLine\CommandLineConfigurationSource.cs" />
-    <Compile Include="ConfigurationExtensions.cs" />
-    <Compile Include="ConfigurationPath.cs" />
-    <Compile Include="FileConfigurationExtensions.cs" />
+    <Compile Include="Configuration\CommandLine\CommandLineConfigurationExtensions.cs" />
+    <Compile Include="Configuration\CommandLine\CommandLineConfigurationProvider.cs" />
+    <Compile Include="Configuration\CommandLine\CommandLineConfigurationSource.cs" />
+    <Compile Include="Configuration\ConfigurationExtensions.cs" />
+    <Compile Include="Configuration\ConfigurationPath.cs" />
+    <Compile Include="Configuration\FileConfigurationExtensions.cs" />
     <Compile Include="IChangeToken.cs" />
-    <Compile Include="IConfiguration.cs" />
-    <Compile Include="IConfigurationBuilder.cs" />
-    <Compile Include="IConfigurationProvider.cs" />
-    <Compile Include="IConfigurationRoot.cs" />
-    <Compile Include="IConfigurationSection.cs" />
-    <Compile Include="IConfigurationSource.cs" />
-    <Compile Include="Impl\ConfigurationBinder.cs" />
-    <Compile Include="Impl\ConfigurationBuilder.cs" />
-    <Compile Include="Impl\ConfigurationKeyComparer.cs" />
-    <Compile Include="Impl\ConfigurationProvider.cs" />
-    <Compile Include="Impl\ConfigurationReloadToken.cs" />
-    <Compile Include="Impl\ConfigurationRoot.cs" />
-    <Compile Include="Impl\ConfigurationSection.cs" />
-    <Compile Include="Impl\DefaultConfigurationBuilderExtensions.cs" />
-    <Compile Include="Impl\IncludedConfigurationProvider.cs" />
-    <Compile Include="Impl\MemoryConfigurationProvider.cs" />
-    <Compile Include="Impl\MemoryConfigurationSource.cs" />
-    <Compile Include="Json\JsonConfigurationExtensions.cs" />
-    <Compile Include="Json\JsonConfigurationFileParser.cs" />
-    <Compile Include="Json\JsonConfigurationProvider.cs" />
-    <Compile Include="Json\JsonConfigurationSource.cs" />
+    <Compile Include="Configuration\IConfiguration.cs" />
+    <Compile Include="Configuration\IConfigurationBuilder.cs" />
+    <Compile Include="Configuration\IConfigurationProvider.cs" />
+    <Compile Include="Configuration\IConfigurationRoot.cs" />
+    <Compile Include="Configuration\IConfigurationSection.cs" />
+    <Compile Include="Configuration\IConfigurationSource.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationBinder.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationBuilder.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationKeyComparer.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationProvider.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationReloadToken.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationRoot.cs" />
+    <Compile Include="Configuration\Impl\ConfigurationSection.cs" />
+    <Compile Include="Configuration\Impl\DefaultConfigurationBuilderExtensions.cs" />
+    <Compile Include="Configuration\Impl\IncludedConfigurationProvider.cs" />
+    <Compile Include="Configuration\Memory\MemoryConfigurationProvider.cs" />
+    <Compile Include="Configuration\Memory\MemoryConfigurationSource.cs" />
+    <Compile Include="Configuration\Json\JsonConfigurationExtensions.cs" />
+    <Compile Include="Configuration\Json\JsonConfigurationFileParser.cs" />
+    <Compile Include="Configuration\Json\JsonConfigurationProvider.cs" />
+    <Compile Include="Configuration\Json\JsonConfigurationSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="$(SolutionDir)SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Resources.cs" />
+    <Compile Include="Configuration\Resources.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
