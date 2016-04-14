@@ -2,7 +2,7 @@ Slant configurations
 ==============
 
 [![Join the chat at https://gitter.im/slantdotnet/Slant](https://badges.gitter.im/slantdotnet/Slant.svg)](https://gitter.im/slantdotnet/Slant?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/slantdotnet/Slant.Configuration/master/license.txt)
+[![GitHub license](https://img.shields.io/badge/licence-MIT%2FApache--2.0-blue.svg)](https://raw.githubusercontent.com/slantdotnet/Slant.Configuration/master/license.txt)
 
 ## Overview
 
